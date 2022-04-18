@@ -1,0 +1,25 @@
+{
+    "name": "toy",
+    "displayName": "Toy",
+    "description": "Toy Programming Language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "toy",
+            "aliases": ["Toy Programming Language", "toy"],
+            "extensions": [".toy"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "toy",
+            "scopeName": "source.toy",
+            "path": "./syntaxes/toy.tmLanguage.json"
+        }]
+    }
+}

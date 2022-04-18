@@ -1,0 +1,31 @@
+let college_year = 2;
+let name = "Omkar Patil";
+let miniproject_marks = 1 * (20 / 2);
+let list = [1, 2, 3, 4, 5];
+let project = {"name": "Toy Programming Language", "written in": "Golang"};
+list[0]
+project["name"]
+let add = fn(a, b) { return a + b; };
+let add = fn(a, b) { a + b; };
+
+let fibonacci = fn(x) {
+    if (x == 0) {
+        0
+    } else {
+        if (x == 1) {
+            1
+        } else {
+            fibonacci(x - 1) + fibonacci(x - 2);
+        }
+    }
+};
+
+let twice = fn(f, x) {
+    return f(f(x));
+};
+
+let addTwo = fn(x) {
+    return x + 2;
+};
+
+fibonacci(2)
